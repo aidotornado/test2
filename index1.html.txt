@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortnite Website</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      nav {
+        background-color: #444;
+        padding: 10px;
+        text-align: center;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+      }
+      nav a:hover {
+        background-color: #555;
+      }
+      section {
+        padding: 20px;
+        background-color: #fff;
+        margin: 20px;
+        border-radius: 5px;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Fortnite Website</h1>
+    </header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#gameplay">Gameplay</a>
+      <a href="#community">Community</a>
+      <a href="#updates">Updates</a>
+    </nav>
+    <section id="about">
+      <h2>About Fortnite</h2>
+      <p>Fortnite is a popular online multiplayer game developed by Epic Games. It was released in 2017 and gained immense popularity for its Battle Royale mode.</p>
+    </section>
+    <section id="gameplay">
+      <h2>Gameplay</h2>
+      <p>In Fortnite, players compete against each other to be the last one standing. They can build structures, collect weapons, and use various tactics to outlast their opponents.</p>
+    </section>
+    <section id="community">
+      <h2>Community</h2>
+      <p>Fortnite has a large and active community of players and content creators. Players can team up with friends, participate in events, and share their gameplay experiences.</p>
+    </section>
+    <section id="updates">
+      <h2>Updates</h2>
+      <p>Epic Games frequently updates Fortnite with new content, features, and events to keep the game fresh and engaging for players.</p>
+    </section>
+    <footer>
+      <p>&copy; 2024 Fortnite Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
